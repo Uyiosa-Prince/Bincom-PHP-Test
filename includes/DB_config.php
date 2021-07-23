@@ -8,8 +8,6 @@ $PASSWORD = '';
 $DBNAME = 'bincomphptest';
 
 
-
-
 $connection = mysqli_connect($HOST, $USER, $PASSWORD, $DBNAME);
 
 if ($connection === false) {
